@@ -23,5 +23,8 @@ public class Main {
 
         PedidoTaxi pt2 = new PedidoTaxi("", LocalDate.now(), "Av. 2", "Calle 5", 10);
         pt2.imprimir();
+
+        PedidoTaxi pt3 = new PedidoTaxi("", LocalDate.now(), "Av. 2", "Calle 5", 10);
+        pt3.imprimir();
     }
 }
